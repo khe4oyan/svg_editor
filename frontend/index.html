@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple SVG Editor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <input type="file" id="uploadInput" accept=".svg" />
+  <button class="svg_save_button" disabled>Save as SVG</button>
+  <div class="uploadedFileContainer">
+    <div class="uploadedFileBox">
+      <div class="uploadedFileBox_svg"></div>
+      <div class="uploadedFileBox_points"></div>
+    </div>
+    <div class="layersBox"></div>
+  </div>
+  <div class="layerControlPanel"></div>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
